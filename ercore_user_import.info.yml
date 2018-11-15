@@ -1,0 +1,13 @@
+name: 'ERCore User Import'
+description: 'D8 Migration to Import Users from CSV'
+type: module
+project: ercore
+package: ERCore
+core: 8.x
+dependencies:
+  - features
+  - migrate
+  - migrate_plus
+  - migrate_source_csv
+  - migrate_tools
+version: 8.x-1.0

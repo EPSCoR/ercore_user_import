@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: ercore_user_csv
+label: 'ERCore User CSV'
+description: 'IMpoting Users from SCV'
+source_type: CSV
+module: null
+shared_configuration:
+  source:
+    key: migration

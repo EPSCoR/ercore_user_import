@@ -1,0 +1,23 @@
+{
+  "name": "epscor/ercore_user_import",
+  "description": "Migrating ERCore Users from CSV",
+  "type": "drupal-module",
+  "license": "GPL-2.0+",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    }
+  ],
+  "require": {
+    "drupal/ercore": "^1.0@beta",
+    "drupal/migrate_plus": "^4.0",
+    "drupal/migrate_tools": "^4.0",
+    "drupal/migrate_source_csv": "^2.2"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "sort-packages": true
+  }
+}
